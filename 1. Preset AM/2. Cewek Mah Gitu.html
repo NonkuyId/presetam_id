@@ -137,7 +137,7 @@ nav{
 .category-time span{
     font-size: 0.8rem;
 }
-.blog-category-2{
+.blog-category{
     padding: 3px 6px;
     color: #484f61;
     font-weight: 500;
@@ -472,52 +472,76 @@ nav .menu-btn{
         font-size: 0.9rem;
     }
 }
-* {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.download-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.buttons {
-margin: 0%;
-text-align: center;
+.download-btn{
+  position: relative;
+  background: #4285F4;
+  color: #fff;
+  width: 260px;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  transition: background 0.3s ease;
 }
 
-.btn-hover {
-width: 200px;
-font-size: 16px;
-font-weight: 600;
-color: #fff;
-cursor: pointer;
-margin: 20px;
-height: 55px;
-text-align:center;
-border: none;
-background-size: 300% 100%;
-
-border-radius: 50px;
-moz-transition: all .4s ease-in-out;
--o-transition: all .4s ease-in-out;
--webkit-transition: all .4s ease-in-out;
-transition: all .4s ease-in-out;
+.download-btn:hover{
+  background: #2874F3;
 }
 
-.btn-hover:hover {
-background-position: 100% 0;
-moz-transition: all .4s ease-in-out;
--o-transition: all .4s ease-in-out;
--webkit-transition: all .4s ease-in-out;
-transition: all .4s ease-in-out;
+.download-btn i{
+  margin-left: 5px;
 }
 
-.btn-hover:focus {
-outline: none;
+.countdown{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
-.btn-hover.color-3 {
-background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
-box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+.countdown span{
+  color: #0693F6;
+  font-size: 1.5em;
+  font-weight: 800;
 }
+
+.pleaseWait-text{
+  font-size: 1.1em;
+  font-weight: 600;
+  display: none;
+}
+
+.manualDownload-text{
+  font-size: 1.1em;
+  font-weight: 600;
+  display: none;
+}
+
+.manualDownload-link{
+  color: #0693F6;
+  font-weight: 800;
+  text-decoration: none;
+}
+      
 </style>
 
  <!--doctype html-->
@@ -526,7 +550,7 @@ box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, intial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Andre - Youtube Picker</title>
+    <title>Presetam_id</title>
     <!--Stylesheet----------------------------------->
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <!--fav-icon------------------------------------->
@@ -542,7 +566,7 @@ box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
             <div class="navigation">
                 <!--logo---------->
                 <a href="index.html" class="logo">
-                    Andre
+                    presetam_id
                 </a>
             </div>
         <br><br>
@@ -559,25 +583,26 @@ box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
                 <div class="article-container">
                     <!--main-heading------------------->
                     <div class="article-main-heading">
-                        <h1>Website Youtube Picker</h1>
+                        <h1>Cewek Mah Gitu || By : presetam_id</h1>
                     </div>
                     <!--publisher-name-and-date-------->
                     <div class="by-date">
                         <!--name------->
                         <div class="article-by">
                             <i class="far fa-user"></i>
-                            <span>Andre Permana</span>
+                            <span>Presetam_id</span>
                         </div>
                         <!--date------->
                         <div class="article-date">
                             <i class="far fa-clock"></i>
-                            <p><span>12</span> <span>Juni</span> <span>2021</span></p>
+                            <p><span>14</span> <span>Juni</span> <span>2021</span></p>
                         </div>
                     </div>
                     <!--article-img--------------------------------->
                     <div class="article-img">
-                        <img alt="img" src="https://i.ibb.co/xSHTGpG/Youtube-picker.png"/>
+                        <iframe src="https://www.youtube.com/embed/GAVrJSoYooM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
+                    <div class="powr-hit-counter" id="0f95dde3_1623583475"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
                     <!--ad--------------------------------------
                     <div class="content-ad">
                         <a href="#">
@@ -588,15 +613,8 @@ box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
                     <div class="article-text">
                         <!--box-1-------------->
                         <div class="article-text-box">
-                            <strong>Bagaimana Cara Menggunakan Website Ini?</strong>
-                            <p>1. Kalian Buka Youtube Lalu Copy Link Video Tersebut</p>
-                            <p>2. Setelah Kalian Copy Lalu Buka Website Saya.</p>
-                            <p>3. Lalu Kalian Paste Link Tersebut.</p>
-                        </div>
-                        <!--box-1-------------->
-                        <div class="article-text-box">
-                            <strong>Apakah Website Ini Gratis?</strong>
-                            <p>Ya. Website Ini Saya Sediakan Gratis Untuk Kalian Yang Ingin Memilih Pemenang Melalui Komen Pada Youtube.</p>
+                            <strong>Download Lagu Dimana?</strong>
+                            <p>Download Lagu >>> <a href="https://www.mediafire.com/file/gccl1uo0nbn49j3/CEWEK_MAH_GITU.mp3/file" style="text-decoration: underline;">Download</a></p>
                         </div>
                         <!--box-1--------------
                         <div class="article-text-box">
@@ -633,20 +651,55 @@ box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
                 </a>
             </div>
 
-            <div class="buttons">
-                <a href="https://youtube-picker.netlify.app" style="text-decoration: none;">
-                <button class="btn-hover color-3">BUKA</button></a>
-            </div>
+    <div class="download-container">
+      <a href="#downlaod" class="download-btn">Download XML <i class="fas fa-download"></i></a>
+      <div class="countdown"></div>
+      <div class="pleaseWait-text">Please wait..</div>
+      <div class="manualDownload-text">
+        If the download didn't start automatically, <a href="" class="manualDownload-link">click here.</a>
+      </div>
+    </div>
+    
+    
         <!--footer------------------------------------->
         <footer>
-            <span class="copyright">Copyright 2021 - Andre Permana</span>
+            <span class="copyright">Copyright 2021 - Presetam_id</span>
             <!--social-links------->
             <div class="footer-social">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
         </footer>
     </body>
     </html>
     
+    <script type="text/javascript">
+        const downloadBtn = document.querySelector(".download-btn");
+        const countdown = document.querySelector(".countdown");
+        const pleaseWaitText = document.querySelector(".pleaseWait-text");
+        const manualDownloadText = document.querySelector(".manualDownload-text");
+        const manualDownloadLink = document.querySelector(".manualDownload-link");
+        var timeLeft = 10;
+    
+        downloadBtn.addEventListener("click", () => {
+          downloadBtn.style.display = "none";
+          countdown.innerHTML = "Download will begin automatically in <span>" + timeLeft + "</span> seconds."; //for quick start of countdown
+    
+          var downloadTimer = setInterval(function timeCount(){
+            timeLeft -= 1;
+            countdown.innerHTML = "Download will begin automatically in <span>" + timeLeft + "</span> seconds.";
+    
+            if(timeLeft <= 0){
+              clearInterval(downloadTimer);
+              pleaseWaitText.style.display = "block";
+              let download_href = "https://www.mediafire.com/file/el8pgoup2kucw15/CEWEK_MAH_GITU_By_presetam_id.xml/file"; //enter the downloadable file link URL here
+              window.location.href = download_href;
+              manualDownloadLink.href = download_href;
+    
+              setTimeout(() => {
+                pleaseWaitText.style.display = "none";
+                manualDownloadText.style.display = "block";
+              }, 4000);
+            }
+          }, 1000);
+        });
+        </script>
