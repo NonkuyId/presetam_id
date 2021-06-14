@@ -1,0 +1,639 @@
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --primary-color:#f05454;
+    --secondary-color:#6b6b6b;
+    --third-color:#fff;
+    --fourth-color:#eee;
+    --five-color:#ccc;
+    --six-color:#0d0c22;
+    --white-light-color:#f3f2f2;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+ol li, ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+} 
+.container-fluid{
+    width:100%;
+    padding:0px 15px;
+    margin:0 auto;
+} 
+.filterbox{
+    padding:30px 108px;
+}
+.filter-tabs{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:15px 0 35px;
+}  
+.navigation a{
+    margin-right:5px;
+    padding:9px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    color:var(--secondary-color);
+    transition:all .5s;
+} 
+.navigation a:hover{
+    color:var(--third-color);
+    background-color:var(--primary-color);
+}
+.navigation a.active{
+    color:var(--third-color);
+    background-color:var(--primary-color);
+}
+.main-wrap.wrap-inner{
+    padding:0px;
+}
+.main-wrap{
+    padding:32px 0px 40px;
+    width:100%;
+    box-sizing: border-box;
+}
+#content{
+    position: relative;
+    margin:0 auto;
+    padding:0px;
+    font-size:14px;
+}
+#main.main-full{
+    float:none;
+    width:none;
+    max-width: none;
+}
+ol.content{
+    margin:0 auto;
+}
+.content{
+    display:grid;
+    list-style: none;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap:36px;
+}
+.multi-shot{
+    position:relative;
+    transition:3s all;
+}
+.dribbble-link{
+    position:relative;
+}
+.dribbble-img img{
+    border-radius: 6px;
+}
+.dribbble-over{
+    position:absolute;
+    top:0;
+    background:rgba(0,0,0,0.04);
+    height: 90%;
+    left:0;
+    right:0;
+    bottom:0;
+    color:var(--third-color);
+    opacity: 0;
+    transition:0.3s all;
+}
+.hover-text{
+    padding:10px;
+    display:block;
+    position: absolute;
+    bottom:1px;
+    font-weight: 500;
+    background-image:linear-gradient(178.1deg, rgba(60,55,106,.03) 8.5%, rgba(0,0,0,.45) 82.4%);
+    width:100%;
+    border-radius: 5px;
+}
+.multi-shot:hover .dribbble-over{
+    opacity: 1;
+}
+.dribbble-over .icons{
+    position: absolute;
+    bottom:8px;
+    right:12px;
+}
+.icons i{
+    background:var(--fourth-color);
+    padding:8px 10px;
+    border-radius: 10px;
+    margin:0px 5px;
+    color:gray;
+    font-size:14px;
+    transition: all 0.3s;
+}
+.icons i:hover{
+    background:var(--primary-color);
+    color:var(--third-color);
+}
+.dribbble-title h3{
+    font-size:13px;
+    color:var(--six-color);
+    font-weight: 500;
+}
+.dribbble-title .m-team{
+    padding:0px 4px;
+    color:var(--third-color);
+    background:var(--five-color);
+    border-radius: 2px;
+    font-size: 11px;
+    letter-spacing:0.4px;
+}
+.comment{
+    float:right;
+}
+.comment i{
+    color:var(--five-color);
+    padding:5px;
+}
+.comment i:hover{
+    color:var(--primary-color);
+}
+<!--=================-->
+<!--Media support-->
+@media (max-width: 1200px){
+    .filterbox{
+        padding:30px 40px;
+    }
+}
+@media (max-width: 992px){
+    .filterbox{
+        padding:30px 15px;
+    }
+    .content{
+        grid-gap:12px;
+    }
+    .navigation a{
+        padding:9px 12px;
+    }
+}
+@media (max-width: 767px){
+    .shot-thumbnail{
+        margin-top:20px;
+    }
+    .filter-tabs{
+        flex-wrap:wrap;
+    }
+    .filter-sort{
+        width:100%;
+    }
+    .navigation{
+        display:flex;
+        overflow-x:scroll;
+        margin-top:15px;
+        padding-bottom:15px;
+    }
+    .navigation::-webkit-scrollbar{
+        width:10px;
+        height: 6px;
+    }
+    .navigation::-webkit-scrollbar-track{
+         background:#f1f1f1;
+    }
+    .navigation::-webkit-scrollbar-thumb{
+         background:#888;
+    }
+}
+@media (max-width: 576px){
+     .px-0{
+         padding:0px;
+     }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+::selection{
+    background-color: #7f71ff;
+    color: #ffffff;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.logo i{
+    margin-right: 5px;
+}
+nav{
+    background-color: #ffffff;
+}
+
+.ad{
+    width:40%;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.06);
+}
+.ad img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.blog-container{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: auto;
+}
+.blog-box{
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
+}
+.blog-img{
+    display: flex;
+    width:100%;
+    min-height: 185px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+.blog-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.published-time{
+    margin-left: 10px;
+    color: #db3838;
+    font-weight: 500;
+}
+.publisher-profile{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.publisher-profile img{
+    width:30px;
+    height: 30px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.publisher-profile span{
+    color: #6d7ca1;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+footer{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
+footer span{
+    color: #131313;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social a{
+    padding: 0px 10px;
+    color: #20232b;
+}
+.footer-social a:hover{
+    color: #6a5ceb;
+    transition: all ease 0.3s;
+}
+.fix-nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.15);
+    z-index: 105;
+    animation: nav-animation 0.3s;
+ 
+}
+.blog-category{
+    padding: 3px 6px;
+    color: #484f61;
+    font-weight: 500;
+    background-color: rgba(0,0,0,0.06);
+}
+.category-12{
+    color: #ffffff;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 2px 10px;
+    font-size: 0.9rem;
+}
+.blog-text strong{
+    font-size: 1.2rem;
+    color: #20232b;
+    display: flex;
+    font-weight: 400;
+    margin: 10px 0px;
+    line-height: 25px;
+}
+@keyframes nav-animation{
+    0%{
+        top: -100%;
+    }
+    100%{
+        top: 0px;
+    }
+}
+ 
+nav .menu-btn{
+    display: none;
+}
+/*making-home-page-responsive----------------------------*/
+@media(max-width:1200px){
+    .blog-container{
+        max-width:1000px;
+    }
+    .blog-img{
+        min-height: auto;
+        height: 170px;
+    }
+}
+@media(max-width:900px){
+    .blog-container{
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .ad{
+        width:60%;
+    }
+}
+@media(max-width:600px){
+    .blog-container{
+        width:90%;
+        grid-template-columns: 1fr;
+    }
+    .blog-img{
+        height: auto;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 70px;
+        position: relative;
+        padding: 0px 20px;
+    }
+    nav .menu-icon{
+        cursor: pointer;
+        float: right;
+        padding: 5px;
+        position: relative;
+        user-select: none;
+        z-index: 2;
+    }
+    nav .menu-icon .nav-icon{
+        background-color: #000000cc;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background 0.2s ease-out;
+        width: 25px;
+    }
+    nav .menu-icon .nav-icon::before,
+    nav .menu-icon .nav-icon::after{
+        background-color: #000000cc;
+        content: '';
+        position: absolute;
+        height: 100%;
+        display: block;
+        width: 100%;
+        transition: all ease-out 0.2s;
+    }
+    nav .menu-icon .nav-icon::before{
+        top: 5px;
+    }
+    nav .menu-icon .nav-icon::after{
+        top: -5px;
+    }
+    nav .menu-icon .nav-icon,
+    nav .menu-icon:checked ~ .menu-icon .nav-icon{
+        background-color: transparent;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon::before{
+        transform: rotate(-45deg);
+        top: 0px;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon::after{
+        transform: rotate(45deg);
+        top: 0px;
+    }
+    nav .menu-btn:checked ~ .blog-filter{
+        display: flex;
+    }
+ 
+}
+@media(max-width:500px){
+    .blog-container{
+        width:100%;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .footer-social{
+        margin-top: 10px;
+    }
+    .ad{
+        width: 90%;
+    }
+}
+.blog-text a strong:hover{
+    color: #6d7ca1;
+    transition: all ease 0.2s;
+}
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>How To Create a Portfolio Filter Gallery using HTML CSS & jQuery | Filterable Image Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!--logo---------->
+    <a href="index.html" class="logo">
+        <i class="icofont-web"></i> Andre
+    </a>
+    <!-- Filter Gallery --> 
+    <div class="container-fluid filterbox">
+        <div class="filter-tabs">
+            <div class="filter-sort">
+                <div class="navigation">
+                    <a href="javascript:void(0)" data-filter="all" class="button active">All</a>
+                    <a href="javascript:void(0)" data-filter="My-website" class="button">My Website</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrap wrap-inner">
+            <div id="content">
+                <div class="main-full" id="main">
+                    <ol class="content">
+
+
+                        <li class="team shot-thumbnail My-website">
+                          <div class="multi-shot">  
+                            <div class="blog-box app">
+                                <div class="dribbble-img">
+                                    <a class="dribbble-link">
+                                        <a href="Article/2. Nonkuy.html">
+                                        <div class="blog-img">
+                                            <img alt="img" src="https://i.ibb.co/r2Fswv9/Nonkuy.png">
+                                        </div>
+                                        </a>
+                                    <div class="blog-text">
+                                    <!--title------------------------>
+                                    <strong>Website Nonton Gratis</strong>
+                                    </a>
+                                    <!--time-and-category------------->
+                                    <div class="category-time">
+                                    <div class="dribbble-title">
+                                    <span class="blog-category">My Website</span>
+                                    <span class="published-time">12 Juni 2021</span>
+                                    </div>
+                                    <!--publisher-profile------------->
+                                    <div class="publisher-profile">
+                                    <img alt="Publisher" src="https://i.ibb.co/G2TtnBv/Whats-App-Image-2021-06-12-at-11-33-08.jpg">
+                                    <span>Andre Permana</span>
+                                    </div>
+                                </div>   
+                            </div>  
+                        </li>
+
+
+                        <li class="team shot-thumbnail My-website">
+                            <div class="multi-shot">  
+                              <div class="blog-box app">
+                                  <div class="dribbble-img">
+                                      <a class="dribbble-link">
+                                          <a href="Article/2. Nonkuy.html">
+                                          <div class="blog-img">
+                                              <img alt="img" src="https://i.ibb.co/xSHTGpG/Youtube-picker.png">
+                                          </div>
+                                          </a>
+                                      <div class="blog-text">
+                                      <!--title------------------------>
+                                      <strong>Website Nonton Gratis</strong>
+                                      </a>
+                                      <!--time-and-category------------->
+                                      <div class="category-time">
+                                      <div class="dribbble-title">
+                                      <span class="blog-category">My Website</span>
+                                      <span class="published-time">12 Juni 2021</span>
+                                      </div>
+                                      <!--publisher-profile------------->
+                                      <div class="publisher-profile">
+                                      <img alt="Publisher" src="https://i.ibb.co/G2TtnBv/Whats-App-Image-2021-06-12-at-11-33-08.jpg">
+                                      <span>Andre Permana</span>
+                                      </div>
+                                  </div>   
+                              </div>  
+                          </li>
+
+
+                        
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+<!--footer------------------------------------->
+<footer>
+    <span class="copyright">Copyright 2021 - Andre Permana</span>
+    <!--social-links------->
+    <div class="footer-social">
+        <a href="#"><i class="fa fa-instagram"></i>
+    </div>
+</footer>
+
+<script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
+<script>
+    //Filter section
+
+$(document).ready(function(){
+    $(".button").click(function(){
+        var name = $(this).attr('data-filter');
+        if(name == "all"){
+            $(".shot-thumbnail").show('2000');
+        }else{
+            $(".shot-thumbnail").not("."+name).hide('2000');
+            $(".shot-thumbnail").filter("."+name).show('2000');
+        }
+    })
+
+    $(".navigation a").click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+    })
+})
+
+
+</script>
