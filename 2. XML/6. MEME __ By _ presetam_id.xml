@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2021-06-14 02:47 PM
+3.2.0 (0432)
+96f4b57 (13 Apr 2020 15.59.04)
+-->
+<scene title="6. MEME || By : presetam_id" width="1080" height="1920" exportWidth="1080" exportHeight="1920" bgcolor="#ff000000" totalTime="15297" fps="60" modifiedTime="1623656853787" amver="432" ffver="101" am="com.alightcreative.motion/3.2.0" amplatform="android">
+  <media uri="content://media/external/audio/media/1246326" filename="nih djny&#128720;.mp3" title="nih djny&#128720;.mp3" type="audio/mpeg" duration="15282000" size="245061" infoUpdated="1623604546393" />
+  <bookmark t="4850" />
+  <bookmark t="5250" />
+  <bookmark t="5516" />
+  <bookmark t="5916" />
+  <bookmark t="6150" />
+  <bookmark t="6550" />
+  <bookmark t="6950" />
+  <bookmark t="7216" />
+  <bookmark t="7616" />
+  <bookmark t="7850" />
+  <bookmark t="8250" />
+  <bookmark t="8716" />
+  <bookmark t="8950" />
+  <bookmark t="9350" />
+  <bookmark t="9550" />
+  <bookmark t="9950" />
+  <bookmark t="10383" />
+  <bookmark t="10650" />
+  <bookmark t="11050" />
+  <bookmark t="11283" />
+  <bookmark t="11683" />
+  <bookmark t="12150" />
+  <bookmark t="12383" />
+  <bookmark t="12783" />
+  <bookmark t="13016" />
+  <bookmark t="13450" />
+  <bookmark t="13816" />
+  <bookmark t="14016" />
+  <bookmark t="14450" />
+  <bookmark t="14650" />
+  <audio id="346589" label="Meme.mp3" startTime="0" endTime="15297" src="content://media/external/audio/media/1246326" outTime="15282" />
+  <shape id="338735" label="Remini20210529135533622.jpg" startTime="0" endTime="4832" fillType="media" fillImage="content://media/external/images/media/1246331" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+      <scale>
+        <kf t="0.003311" v="0.188889,0.188889" />
+        <kf t="1.065811" v="0.770370,0.770370" />
+        <kf t="1.072641" v="0.771296,0.771296" />
+        <kf t="1.079470" v="0.772222,0.772222" />
+        <kf t="1.086507" v="0.773148,0.773148" />
+        <kf t="1.006830" v="0.801852,0.801852" />
+      </scale>
+    </transform>
+    <effect id="com.alightcreative.effects.oscillate3">
+      <property name="angle" type="float" value="89.300003" />
+      <property name="freq" type="float" value="1.490000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="100.000000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing2">
+      <property name="freq" type="float">
+        <kf t="0.004950" v="2.110000" />
+        <kf t="0.995049" v="6.020000" />
+      </property>
+      <property name="a1" type="float" value="0.000000" />
+      <property name="a2" type="float" value="0.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.rays">
+      <property name="centerPoint" type="vec2">
+        <kf t="0.046904" v="-173.000000,0.000000" />
+        <kf t="1.000000" v="211.000000,0.000000" />
+      </property>
+      <property name="strength" type="float" value="0.440000" />
+      <property name="intensity" type="float" value="1.000000" />
+      <property name="threshold" type="float" value="0.600000" />
+      <property name="thresholdColor" type="color" value="#ff000000" />
+      <property name="fillColor" type="color" value="#ff3d4cf5" />
+      <property name="blend" type="float" value="0.000000" />
+      <property name="quality" type="float" value="150.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur2">
+      <property name="tune" type="float" value="1.000000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.shake">
+      <property name="mag" type="float" value="100.000000" />
+      <property name="speed" type="float" value="1.000000" />
+      <property name="evolution" type="float" value="0.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="angle" type="float" value="45.000000" />
+      <property name="slack" type="float" value="0.250000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,538.500000" />
+  </shape>
+  <shape id="338727" label="Remini20210529132855329.jpg" startTime="4833" endTime="5265" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.010000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="45.000000" />
+      <property name="freq" type="float" value="6.837000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="499.000000" />
+        <kf t="0.973085" v="1.000000" e="cubicBezier 0.0 1.024745 0.2178711 0.98734957" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="118.800003" />
+      <property name="freq" type="float" value="10.653000" />
+      <property name="mag" type="float">
+        <kf t="0.549754" v="1.000000" e="cubicBezier 0.0 0.9978751 0.2283202 0.98734987" />
+        <kf t="0.000000" v="499.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.turbulentdisplace">
+      <property name="position" type="vec2" value="69.000000,0.000000" />
+      <property name="intensity" type="float">
+        <kf t="1.017647" v="0.000000" e="cubicBezier 0.10812056 0.4201752 0.68233436 0.89778346" />
+        <kf t="0.000000" v="0.153000" />
+      </property>
+      <property name="evolution" type="float" value="4.620000" />
+      <property name="direction" type="int" value="2" />
+      <property name="scale" type="float">
+        <kf t="-0.119673" v="3.320000" />
+        <kf t="1.941557" v="0.010000" e="cubicBezier 0.0 0.76948255 0.52081007 0.9963063" />
+      </property>
+      <property name="stretch" type="float" value="0.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="1.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.690987" v="0.000000" />
+        <kf t="0.000000" v="1.230000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.glowscan">
+      <property name="threshold" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="1.000000" />
+      </property>
+      <property name="radius" type="float" value="0.050000" />
+      <property name="power" type="float" value="4.000000" />
+      <property name="strength" type="float" value="0.100000" />
+      <property name="fillColor" type="color" value="#ff0088ff" />
+      <property name="blend" type="float" value="0.000000" />
+      <property name="fill" type="float" value="1.000000" />
+      <property name="alpha" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.000000" />
+  </shape>
+  <shape id="338728" label="Remini20210529132855329.jpg" startTime="5233" endTime="5532" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.000000" />
+  </shape>
+  <shape id="338729" label="Remini20210529132855329.jpg" startTime="5500" endTime="5932" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.000000" />
+  </shape>
+  <shape id="338730" label="Remini20210529132855329.jpg" startTime="5900" endTime="6165" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.000000" />
+  </shape>
+  <shape id="338731" label="Remini20210529132855329.jpg" startTime="6133" endTime="6565" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.000000" />
+  </shape>
+  <shape id="338737" label="Remini20210529132759065.jpg" startTime="6533" endTime="6965" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.010000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="45.000000" />
+      <property name="freq" type="float" value="6.837000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="499.000000" />
+        <kf t="0.973085" v="1.000000" e="cubicBezier 0.0 1.024745 0.2178711 0.98734957" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="118.800003" />
+      <property name="freq" type="float" value="10.653000" />
+      <property name="mag" type="float">
+        <kf t="0.549754" v="1.000000" e="cubicBezier 0.0 0.9978751 0.2283202 0.98734987" />
+        <kf t="0.000000" v="499.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.turbulentdisplace">
+      <property name="position" type="vec2" value="69.000000,0.000000" />
+      <property name="intensity" type="float">
+        <kf t="1.017647" v="0.000000" e="cubicBezier 0.10812056 0.4201752 0.68233436 0.89778346" />
+        <kf t="0.000000" v="0.153000" />
+      </property>
+      <property name="evolution" type="float" value="4.620000" />
+      <property name="direction" type="int" value="2" />
+      <property name="scale" type="float">
+        <kf t="-0.119673" v="3.320000" />
+        <kf t="1.941557" v="0.010000" e="cubicBezier 0.0 0.76948255 0.52081007 0.9963063" />
+      </property>
+      <property name="stretch" type="float" value="0.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="1.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.690987" v="0.000000" />
+        <kf t="0.000000" v="1.230000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.glowscan">
+      <property name="threshold" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="1.000000" />
+      </property>
+      <property name="radius" type="float" value="0.050000" />
+      <property name="power" type="float" value="4.000000" />
+      <property name="strength" type="float" value="0.100000" />
+      <property name="fillColor" type="color" value="#ff0088ff" />
+      <property name="blend" type="float" value="0.000000" />
+      <property name="fill" type="float" value="1.000000" />
+      <property name="alpha" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338739" label="Remini20210529132759065.jpg" startTime="6933" endTime="7232" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338740" label="Remini20210529132759065.jpg" startTime="7200" endTime="7632" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338741" label="Remini20210529132759065.jpg" startTime="7600" endTime="7865" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338742" label="Remini20210529132759065.jpg" startTime="7833" endTime="8265" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338743" label="Remini20210523183855214.jpg" startTime="8233" endTime="8732" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.010000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="45.000000" />
+      <property name="freq" type="float" value="6.837000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="499.000000" />
+        <kf t="0.973085" v="1.000000" e="cubicBezier 0.0 1.024745 0.2178711 0.98734957" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="118.800003" />
+      <property name="freq" type="float" value="10.653000" />
+      <property name="mag" type="float">
+        <kf t="0.549754" v="1.000000" e="cubicBezier 0.0 0.9978751 0.2283202 0.98734987" />
+        <kf t="0.000000" v="499.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.turbulentdisplace">
+      <property name="position" type="vec2" value="69.000000,0.000000" />
+      <property name="intensity" type="float">
+        <kf t="1.017647" v="0.000000" e="cubicBezier 0.10812056 0.4201752 0.68233436 0.89778346" />
+        <kf t="0.000000" v="0.153000" />
+      </property>
+      <property name="evolution" type="float" value="4.620000" />
+      <property name="direction" type="int" value="2" />
+      <property name="scale" type="float">
+        <kf t="-0.119673" v="3.320000" />
+        <kf t="1.941557" v="0.010000" e="cubicBezier 0.0 0.76948255 0.52081007 0.9963063" />
+      </property>
+      <property name="stretch" type="float" value="0.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="1.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.690987" v="0.000000" />
+        <kf t="0.000000" v="1.230000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.glowscan">
+      <property name="threshold" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="1.000000" />
+      </property>
+      <property name="radius" type="float" value="0.050000" />
+      <property name="power" type="float" value="4.000000" />
+      <property name="strength" type="float" value="0.100000" />
+      <property name="fillColor" type="color" value="#ff0088ff" />
+      <property name="blend" type="float" value="0.000000" />
+      <property name="fill" type="float" value="1.000000" />
+      <property name="alpha" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338744" label="Remini20210523183855214.jpg" startTime="8700" endTime="8965" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338745" label="Remini20210523183855214.jpg" startTime="8933" endTime="9365" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338746" label="Remini20210523183855214.jpg" startTime="9333" endTime="9565" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338747" label="Remini20210523183855214.jpg" startTime="9533" endTime="9965" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338749" label="Remini20210522153553224.jpg" startTime="9933" endTime="10399" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.010000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="45.000000" />
+      <property name="freq" type="float" value="6.837000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="499.000000" />
+        <kf t="0.973085" v="1.000000" e="cubicBezier 0.0 1.024745 0.2178711 0.98734957" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="118.800003" />
+      <property name="freq" type="float" value="10.653000" />
+      <property name="mag" type="float">
+        <kf t="0.549754" v="1.000000" e="cubicBezier 0.0 0.9978751 0.2283202 0.98734987" />
+        <kf t="0.000000" v="499.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.turbulentdisplace">
+      <property name="position" type="vec2" value="69.000000,0.000000" />
+      <property name="intensity" type="float">
+        <kf t="1.017647" v="0.000000" e="cubicBezier 0.10812056 0.4201752 0.68233436 0.89778346" />
+        <kf t="0.000000" v="0.153000" />
+      </property>
+      <property name="evolution" type="float" value="4.620000" />
+      <property name="direction" type="int" value="2" />
+      <property name="scale" type="float">
+        <kf t="-0.119673" v="3.320000" />
+        <kf t="1.941557" v="0.010000" e="cubicBezier 0.0 0.76948255 0.52081007 0.9963063" />
+      </property>
+      <property name="stretch" type="float" value="0.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="1.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.690987" v="0.000000" />
+        <kf t="0.000000" v="1.230000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.glowscan">
+      <property name="threshold" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="1.000000" />
+      </property>
+      <property name="radius" type="float" value="0.050000" />
+      <property name="power" type="float" value="4.000000" />
+      <property name="strength" type="float" value="0.100000" />
+      <property name="fillColor" type="color" value="#ff0088ff" />
+      <property name="blend" type="float" value="0.000000" />
+      <property name="fill" type="float" value="1.000000" />
+      <property name="alpha" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338750" label="Remini20210522153553224.jpg" startTime="10366" endTime="10665" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338751" label="Remini20210522153553224.jpg" startTime="10633" endTime="11065" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338752" label="Remini20210522153553224.jpg" startTime="11033" endTime="11299" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338753" label="Remini20210522153553224.jpg" startTime="11266" endTime="11699" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,959.500000" />
+  </shape>
+  <shape id="338754" label="Remini20210522153702994.jpg" startTime="11666" endTime="12165" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.010000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="45.000000" />
+      <property name="freq" type="float" value="6.837000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="499.000000" />
+        <kf t="0.973085" v="1.000000" e="cubicBezier 0.0 1.024745 0.2178711 0.98734957" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="118.800003" />
+      <property name="freq" type="float" value="10.653000" />
+      <property name="mag" type="float">
+        <kf t="0.549754" v="1.000000" e="cubicBezier 0.0 0.9978751 0.2283202 0.98734987" />
+        <kf t="0.000000" v="499.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.turbulentdisplace">
+      <property name="position" type="vec2" value="69.000000,0.000000" />
+      <property name="intensity" type="float">
+        <kf t="1.017647" v="0.000000" e="cubicBezier 0.10812056 0.4201752 0.68233436 0.89778346" />
+        <kf t="0.000000" v="0.153000" />
+      </property>
+      <property name="evolution" type="float" value="4.620000" />
+      <property name="direction" type="int" value="2" />
+      <property name="scale" type="float">
+        <kf t="-0.119673" v="3.320000" />
+        <kf t="1.941557" v="0.010000" e="cubicBezier 0.0 0.76948255 0.52081007 0.9963063" />
+      </property>
+      <property name="stretch" type="float" value="0.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="1.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.690987" v="0.000000" />
+        <kf t="0.000000" v="1.230000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.glowscan">
+      <property name="threshold" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="1.000000" />
+      </property>
+      <property name="radius" type="float" value="0.050000" />
+      <property name="power" type="float" value="4.000000" />
+      <property name="strength" type="float" value="0.100000" />
+      <property name="fillColor" type="color" value="#ff0088ff" />
+      <property name="blend" type="float" value="0.000000" />
+      <property name="fill" type="float" value="1.000000" />
+      <property name="alpha" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338755" label="Remini20210522153702994.jpg" startTime="12133" endTime="12399" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338756" label="Remini20210522153702994.jpg" startTime="12366" endTime="12799" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338757" label="Remini20210522153702994.jpg" startTime="12766" endTime="13032" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338758" label="Remini20210522153702994.jpg" startTime="13000" endTime="13465" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="539.000000,960.000000" />
+  </shape>
+  <shape id="338760" label="Remini20210527204624199.jpg" startTime="13433" endTime="13832" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.010000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="45.000000" />
+      <property name="freq" type="float" value="6.837000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="499.000000" />
+        <kf t="0.973085" v="1.000000" e="cubicBezier 0.0 1.024745 0.2178711 0.98734957" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float" value="118.800003" />
+      <property name="freq" type="float" value="10.653000" />
+      <property name="mag" type="float">
+        <kf t="0.549754" v="1.000000" e="cubicBezier 0.0 0.9978751 0.2283202 0.98734987" />
+        <kf t="0.000000" v="499.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.turbulentdisplace">
+      <property name="position" type="vec2" value="69.000000,0.000000" />
+      <property name="intensity" type="float">
+        <kf t="1.017647" v="0.000000" e="cubicBezier 0.10812056 0.4201752 0.68233436 0.89778346" />
+        <kf t="0.000000" v="0.153000" />
+      </property>
+      <property name="evolution" type="float" value="4.620000" />
+      <property name="direction" type="int" value="2" />
+      <property name="scale" type="float">
+        <kf t="-0.119673" v="3.320000" />
+        <kf t="1.941557" v="0.010000" e="cubicBezier 0.0 0.76948255 0.52081007 0.9963063" />
+      </property>
+      <property name="stretch" type="float" value="0.000000" />
+      <property name="seed" type="float" value="0.000000" />
+      <property name="screenSpace" type="bool" value="false" />
+      <property name="octaves" type="float" value="1.000000" />
+      <property name="offs" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.690987" v="0.000000" />
+        <kf t="0.000000" v="1.230000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.glowscan">
+      <property name="threshold" type="float">
+        <kf t="0.000000" v="0.000000" />
+        <kf t="1.000000" v="1.000000" />
+      </property>
+      <property name="radius" type="float" value="0.050000" />
+      <property name="power" type="float" value="4.000000" />
+      <property name="strength" type="float" value="0.100000" />
+      <property name="fillColor" type="color" value="#ff0088ff" />
+      <property name="blend" type="float" value="0.000000" />
+      <property name="fill" type="float" value="1.000000" />
+      <property name="alpha" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,960.000000" />
+  </shape>
+  <shape id="338761" label="Remini20210527204624199.jpg" startTime="13800" endTime="14032" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,960.000000" />
+  </shape>
+  <shape id="338762" label="Remini20210527204624199.jpg" startTime="14000" endTime="14465" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,960.000000" />
+  </shape>
+  <shape id="338763" label="Remini20210527204624199.jpg" startTime="14433" endTime="14665" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,960.000000" />
+  </shape>
+  <shape id="338764" label="Remini20210527204624199.jpg" startTime="14633" endTime="15265" fillType="media" fillImage="content://media/external/images/media/1240535" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile">
+      <property name="scale" type="float" value="1.000000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate">
+      <property name="angle" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="169.199997" e="cubicBezier 0.0 0.0 0.58 1.0" />
+      </property>
+      <property name="freq" type="float" value="1.600000" />
+      <property name="mag" type="float">
+        <kf t="0.000000" v="139.720001" />
+        <kf t="0.905371" v="1.000000" />
+      </property>
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.swing">
+      <property name="freq" type="float" value="1.110000" />
+      <property name="a1" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="-3.000000" />
+      </property>
+      <property name="a2" type="float">
+        <kf t="1.000000" v="0.000000" />
+        <kf t="0.000000" v="2.000000" />
+      </property>
+      <property name="phase" type="float" value="0.000000" />
+      <property name="type" type="int" value="0" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure">
+      <property name="exposure" type="float">
+        <kf t="0.000000" v="1.010000" />
+        <kf t="1.000000" v="0.000000" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,960.000000" />
+  </shape>
+  <shape id="338765" label="Persegi panjang 1" startTime="4833" endTime="15265" fillType="color" s=".rect">
+    <transform>
+      <location value="540.000000,960.000000" />
+      <scale value="9.989999,9.989999" />
+    </transform>
+    <fillColor value="#ff3dc337" />
+    <effect id="com.alightcreative.effects.lift">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.sharpen">
+      <property name="strength" type="float" value="0.810000" />
+      <property name="radius" type="float" value="1.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.colorize">
+      <property name="tint" type="vec3" value="-103.897186,0.178438,0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+</scene>
