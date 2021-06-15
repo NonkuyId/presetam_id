@@ -1,0 +1,159 @@
+<!--doctype html-->
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Presetam_id</title>
+    <!--Stylesheet----------------------------------->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <!--fav-icon------------------------------------->
+    <link rel="shortcut icon" href="https://i.ibb.co/MRw69M1/Whats-App-Image-2021-06-14-at-12-21-12.jpg"/>
+    <!--using-font-awesome--------------------------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <!--poppins-font-family-------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <!--navigation----------------------------->
+            <div class="navigation">
+                <!--logo---------->
+                <a href="index.html" class="logo">
+                    presetam_id
+                </a>
+            </div>
+        <br><br>
+            <section id="blog-artcile">
+                <!--side-ad---------->
+                <div class="side-ad">
+                    <a href="#">
+                        <!--ad-----------------------
+                        <img alt="ads" src="images/side-ad.jpg">
+                        <!--ad----------------------->
+                    </a>
+                </div>
+                <!--article-container----->
+                <div class="article-container">
+                    <!--main-heading------------------->
+                    <div class="article-main-heading">
+                        <h1>Ga Usah Insecure || By : presetam_id</h1>
+                    </div>
+                    <!--publisher-name-and-date-------->
+                    <div class="by-date">
+                        <!--name------->
+                        <div class="article-by">
+                            <i class="far fa-user"></i>
+                            <span>Presetam_id</span>
+                        </div>
+                        <!--date------->
+                        <div class="article-date">
+                            <i class="far fa-clock"></i>
+                            <p><span>15</span> <span>Juni</span> <span>2021</span></p>
+                        </div>
+                    </div>
+                    <!--article-img--------------------------------->
+                    <div class="article-img">
+                        <iframe src="https://www.youtube-nocookie.com/embed/xdkCBUadMms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                    <!--ad--------------------------------------
+                    <div class="content-ad">
+                        <a href="#">
+                            <img alt="ads" src="images/ad-home.png">
+                        </a>
+                    </div>
+                    <!--text----------------------------------->
+                    <div class="article-text">
+                        <!--box-1-------------->
+                        <div class="article-text-box">
+                            <strong>Download Lagu Dimana?</strong>
+                            <p>Download Lagu >>> <a href="https://www.mediafire.com/file/xkbwuy76jqsyg9p/6._Ga_Usah_Insecure.aac/file" style="text-decoration: underline;">Download</a></p>
+                        </div>
+                        <!--box-1--------------
+                        <div class="article-text-box">
+                            <strong>Heading 3</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam omnis aperiam, ipsa quis accusamus, doloremque sit explicabo error, earum aut fugiat! Non a quidem molestias soluta alias quasi dignissimos veniam!</p>
+            
+                        </div>
+                        <!--box-1--------------
+                        <div class="article-text-box">
+                            <strong>Heading 4</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam omnis aperiam, ipsa quis accusamus, doloremque sit explicabo error, earum aut fugiat! Non a quidem molestias soluta alias quasi dignissimos veniam!</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--KSONG-->
+                
+                
+                <!--side-ad----------->
+                <div class="side-ad">
+                    <a href="#">
+                        <!--ad-----------------------
+                        <img alt="ads" src="images/side-ad.jpg">
+                        <!--ad----------------------->
+                    </a>
+                </div>
+            </section>
+            <!--ad----------------------->
+            <div class="ad">
+                <a href="#">
+                    <!--ad-----------------------
+                    <img alt="ads" src="images/ad-home.png">
+                    <!--ad----------------------->
+                </a>
+            </div>
+
+    <div class="download-container">
+      <a href="#downlaod" class="download-btn">Download XML <i class="fas fa-download"></i></a>
+      <div class="countdown"></div>
+      <div class="pleaseWait-text">Please wait..</div>
+      <div class="manualDownload-text">
+        If the download didn't start automatically, <a href="" class="manualDownload-link">click here.</a>
+      </div>
+    </div>
+    
+    
+        <!--footer------------------------------------->
+        <footer>
+            <span class="copyright">Copyright 2021 - Presetam_id</span>
+            <!--social-links------->
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
+    <script type="text/javascript">
+        const downloadBtn = document.querySelector(".download-btn");
+        const countdown = document.querySelector(".countdown");
+        const pleaseWaitText = document.querySelector(".pleaseWait-text");
+        const manualDownloadText = document.querySelector(".manualDownload-text");
+        const manualDownloadLink = document.querySelector(".manualDownload-link");
+        var timeLeft = 10;
+    
+        downloadBtn.addEventListener("click", () => {
+          downloadBtn.style.display = "none";
+          countdown.innerHTML = "Download will begin automatically in <span>" + timeLeft + "</span> seconds."; //for quick start of countdown
+    
+          var downloadTimer = setInterval(function timeCount(){
+            timeLeft -= 1;
+            countdown.innerHTML = "Download will begin automatically in <span>" + timeLeft + "</span> seconds.";
+    
+            if(timeLeft <= 0){
+              clearInterval(downloadTimer);
+              pleaseWaitText.style.display = "block";
+              let download_href = "https://www.mediafire.com/file/kmgsp7339ojknk0/GA_USAH_INSECURE_By_presetam_id.xml/file"; //enter the downloadable file link URL here
+              window.location.href = download_href;
+              manualDownloadLink.href = download_href;
+    
+              setTimeout(() => {
+                pleaseWaitText.style.display = "none";
+                manualDownloadText.style.display = "block";
+              }, 4000);
+            }
+          }, 1000);
+        });
+        </script>
